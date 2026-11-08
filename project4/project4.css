@@ -1,0 +1,349 @@
+@font-face {
+    font-family: "TTNorms";
+    src: url("project/fonts/TTNorms-Regular.otf") format("openType");
+}
+
+@font-face {
+    font-family: "TTNorms Medium";
+    src: url("project/fonts/TTNorms-Medium.otf") format("openType");
+}
+
+@font-face {
+    font-family: "TTNorms Light";
+    src: url("project/TTNorms-Light.otf") format("openType");
+}
+
+@font-face {
+    font-family: "Times Roman Italic";
+    src: url("project/fonts/Times-new-roman-italic.ttf") format("truetype");
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header .container {
+    font-family: "TTNorms Medium";
+
+}
+
+.menu {
+    display: flex;
+    position: relative;
+    margin-top: 40px;
+
+}
+
+.header-button {
+    margin-left: auto;
+}
+
+.header-button button {
+    font-size: 16px;
+    color: white;
+    border: none;
+    background-color: #2b50e3;
+    border-radius: 8px;
+    width: 130px;
+    padding: 12px;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+.header-button button:hover {
+    background-color: #0D47A1;
+}
+
+.options {
+    display: flex;
+    gap: 30px;
+    margin-left: 100px;
+}
+
+.option1,
+.option2,
+.option3,
+.option4,
+.option5 {
+    height: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 200ms ease-in;
+}
+
+.option1:hover,
+.option2:hover,
+.option3:hover,
+.option4:hover,
+.option5:hover {
+    background-color: #ECEFF1;
+    transform: scale(1.1);
+}
+
+.logo img {
+    margin-top: -5px;
+    width: 160px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.info-photo img {
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.info-text {
+    margin-top: 60px;
+    width: 460px;
+}
+
+.info-text b {
+    font-size: 40px;
+}
+
+.info-text p {
+    line-height: 2;
+    text-align: justify;
+}
+
+.buttom-info {
+    display: flex;
+    gap: 20px;
+}
+
+.button1 button,
+.button2 button {
+    border: none;
+    color: white;
+    padding: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+.button1 button {
+    background-color: #8BC34A;
+}
+
+.button1 button:hover {
+    background-color: #388E3C;
+}
+
+.button2 button {
+    background-color: #2b50e3;
+}
+
+.button2 button:hover {
+    background-color: #0D47A1;
+}
+
+.intro {
+    margin-top: 140px;
+    text-align: center;
+}
+
+.steps {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+.step1,
+.step2,
+.step3 {
+    width: 230px;
+    transition: all 200ms ease-in;
+}
+
+.step1:hover,
+.step2:hover,
+.step3:hover {
+    transform: scale(1.2);
+}
+
+.step1 p,
+.step2 p,
+.step3 p {
+    line-height: 1.5;
+}
+
+.intro-pic {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.view {
+    background-color: #2b50e3;
+}
+
+.view-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.view-text {
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.comments {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.person1,
+.person2,
+.person3 {
+    width: 300px;
+    text-align: justify;
+    background-color: white;
+    margin-bottom: 120px;
+    transition: all 200ms ease-in;
+    box-shadow: 0 0 20px rgb(0, 0, 0, .5);
+}
+
+.person1:hover,
+.person2:hover,
+.person3:hover {
+    transform: scale(1.2);
+}
+
+.comment1,
+.comment2,
+.comment3 {
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    line-height: 1.5;
+    font-family: "Times Roman Italic";
+}
+
+.prf1,
+.prf2,
+.prf3 {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 15px;
+    gap: 15px;
+}
+
+.prf1 img,
+.prf2 img,
+.prf3 img {
+    width: 40px;
+}
+
+.earmm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.earmm1,
+.earmm2,
+.earmm3,
+.earmm4,
+.earmm5 {
+    margin-bottom: 70px;
+    cursor: pointer;
+}
+
+.picture-info {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.picture {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+.picture img {
+    width: 100%;
+}
+
+.footer {
+    background-color: #2b50e3;
+    width: 100%;
+
+
+}
+
+.caption {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.email-form {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+}
+
+.email-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.email-input::placeholder {
+    color: #888;
+}
+
+.submit-btn {
+    background-color: #2b50e3;
+    border: none;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #1d3bbf;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
