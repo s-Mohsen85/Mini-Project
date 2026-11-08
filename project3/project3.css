@@ -1,0 +1,52 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    box-sizing: border-box;
+}
+.bottom{
+    text-align: center;
+    width: 200px;
+    height: 70px;
+    background-color: #1976D2;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+
+}
+.list{
+    width:200px ;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0 0 15px rgb(0,0,0,0.1);
+    visibility: hidden;
+    transition: all 250ms ease-in;
+    opacity: 0;
+    
+}
+
+.shape{
+    width: 28px;
+    vertical-align: middle;
+    transition: all 200ms ease-in;
+    
+
+}
+.bottom:hover .shape{
+    transform: rotate(180deg);
+}
+.bottom:hover{
+    background-color: #1565C0;
+}
+
+.bottom:hover .list{
+    transform: translateY(20px);
+    visibility: visible;
+    opacity: 1;
+}
