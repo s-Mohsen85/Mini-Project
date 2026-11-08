@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main {
+    width: 600px;
+    text-align: center;
+}
+
+header h1 {
+    color: blue;
+}
+
+header input {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+
+}
+
+.list {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+.list button {
+    background-color: blue;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease-in;
+}
+
+.list button:hover {
+    background-color: #00119C;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0, .5);
+}
+
+footer {
+    margin-top: 40px;
+    display: flex;
+    height: 40px;
+}
+
+footer form {
+    display: flex;
+    width: 100%;
+}
+
+footer input {
+    width: 100%;
+}
+
+footer button {
+    background-color: white;
+    color: blue;
+    width: 45px;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+.empty {
+    display: none;
+}
+
+.hidden-list {
+    display: none;
+}
